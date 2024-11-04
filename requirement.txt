@@ -2,3 +2,5 @@ tensorflow
 numpy
 tqdm
 pillow
+scikit-learn
+opencv-python 
