@@ -1,2 +1,5 @@
 images/
 virtual/
+
+embeddings.pkl
+filenames.pkl
