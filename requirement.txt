@@ -4,3 +4,4 @@ tqdm
 pillow
 scikit-learn
 opencv-python 
+streamlit
