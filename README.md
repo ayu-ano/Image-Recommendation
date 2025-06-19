@@ -52,7 +52,11 @@ source venv/bin/activate
 
 # Activate on Windows (CMD/PowerShell)
  ```bash
-venv\Scripts\activate
+virtual\Scripts\activate
+```
+## if any issue occurs in Windows then first use this cmd then activate the venv(here venv named as virtual)
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```
 
 3. **Install dependencies**
@@ -82,7 +86,7 @@ bash
 ```
 streamlit run app.py
 ```
-- Navigate to http://localhost:port in your browser.
+- Navigate to http://localhost:8501 in your browser.
 
 - Upload a .jpg, .jpeg, or .png image.
 
@@ -93,7 +97,8 @@ streamlit run app.py
 Below is a sample demonstration of how the image recommendation works. Upload any image, and the system will return the top 5 visually similar images from the dataset.
 
 <p align="center">
-  <img src="demo/sample_output.png" alt="Image Recommendation Demo" width="700"/>
+  <img src="sample/image.png" alt="Image Recommendation Demo" width="550"/>
+  <img src="sample/image1.png" alt="Image Recommendation Demo" width="550"/>
 </p>
 
 
