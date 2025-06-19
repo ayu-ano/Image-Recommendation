@@ -21,14 +21,14 @@ A content-based image recommendation system built using **ResNet50**, **TensorFl
 
 ##  Project Structure
 📦 Image-Recommendation-System
-├── app.py                # Script to extract features and generate embeddings
-├── main.py               # Main Streamlit application
-├── embeddings.pkl        # Stored image embeddings
-├── filenames.pkl         # Filenames corresponding to embeddings
-├── images/               # Folder containing all reference images
-├── uploads/              # Temporary upload directory for user images
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+- app.py                # Script to extract features and generate embeddings
+-  main.py               # Main Streamlit application
+-  embeddings.pkl        # Stored image embeddings
+-  filenames.pkl         # Filenames corresponding to embeddings
+-   images/               # Folder containing all reference images
+- uploads/              # Temporary upload directory for user images
+-  requirements.txt      # Python dependencies
+-   README.md             # Project documentation
 
 ## 🛠️ Installation
 
