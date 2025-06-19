@@ -12,7 +12,8 @@ import cv2
 
 feature_list = np.array(pickle.load(open('embeddings.pkl','rb')))
 filenames = pickle.load(open('filenames.pkl','rb'))
-
+print("Dimension of our feature list :")
+print(feature_list.shape)
 
 model = ResNet50(weights='imagenet',include_top=False,input_shape=(224,224,3))
 model.trainable = False
@@ -45,6 +46,7 @@ print(indices)
 
 
 for file in indices[0][1:6]:
+    print(filenames[file])
     temp_img = cv2.imread(filenames[file])
     cv2.imshow('output',cv2.resize(temp_img,(512,512)))
     cv2.waitKey(0)
